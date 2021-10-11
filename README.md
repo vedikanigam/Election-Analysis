@@ -22,7 +22,7 @@ Second, to add total votes in each county we first create a county votes diction
 
 Third, to calculate the percentage of votes in each county another loop is created that retrieves votes for each county from the county votes dictionary. Finally, by dividing county votes by total number of votes and multiplying by 100 we get the county vote percentage. See image of code below.
 
-![CountyVotePercentage](https://github.com/vedikanigam/ElectionAnalysis/blob/main/Resources/county_votepercentage.png)
+![CountyVotePercentage](https://github.com/vedikanigam/Election-Analysis/blob/main/Resources/county_votepercentage.png)
 
 - **County with largest number of votes** -
 To figure out the county with the highest vote count we use an if statement within the loop where we retrieve the county votes and calculate their percentage. We initialize highest vote count as zero in the very beginning. In the if statement, each time it encounters a higher value than the current highest value it updates the current highest value to the encountered value. See image of code below. 
